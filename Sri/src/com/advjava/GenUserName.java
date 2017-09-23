@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 @WebServlet("/loginpage")
 public class GenUserName extends HttpServlet {
+	
 	public void service(HttpServletRequest req,HttpServletResponse res) throws IOException{
 		PrintWriter pw=res.getWriter();
 		String FirstName=req.getParameter("First");
@@ -23,7 +24,6 @@ public class GenUserName extends HttpServlet {
 		pw.println("UserId:"+FirstName.substring(0,3)+age+LastName);
 		pw.println("</body>");
 		pw.println("</html>");
-		
 	}
 
 }
