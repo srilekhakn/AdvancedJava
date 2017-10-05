@@ -1,0 +1,11 @@
+@CHARSET "ISO-8859-1";@CHARSET "ISO-8859-1";
+body{
+	color:black;border:10px;background-color:green;text-align:center;;
+}
+form{
+	margin-top:40px;margin-left:550px;margin-right:550px; background-color:orange; align:center;
+}
+table{
+		margin-top:40px;margin-left:550px;margin-right:550px; background-color:orange; align:center;
+	
+}
